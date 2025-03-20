@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Arte Compensar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="oscuro">
+    <!-- Menú de navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#exhibiciones">Exhibiciones</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#registro">Registro</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <label>
+                    <input type="checkbox" id="toggleTheme"> Tema Claro
+                </label>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        document.getElementById("toggleTheme").addEventListener("change", function() {
+    if (this.checked) {
+        document.body.setAttribute("data-theme", "claro");
+    } else {
+        document.body.setAttribute("data-theme", "oscuro");
+    }
+});
+    </script>
+
+    <!-- Sección Exhibiciones -->
+    <section id="exhibiciones">
+        <h2>Exhibiciones</h2><br><br>
+        <div class="galeria">
+            <figure>
+                <img src="imagenes/obra1.png" alt="Obra de Arte 1">
+                <figcaption>Es una obra que refleja un arte psicodélico y expresionista con un rostro surrealista lleno de colores vibrantes y contrastantes.
+                    <div class="autor-link">
+                        <a href="#artista2">Por Miguel Ángel Ríos Pardo</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra2.jpeg" alt="Obra de Arte 2">
+                <figcaption>Es una obra colorida y moderna que combina arte urbano y retrato, mostrando a una joven con gafas soplando un globo, rodeada de pájaros y detalles ornamentales.
+                    <div class="autor-link">
+                        <a href="#artista6">Por Camilo Pérez Villalobos</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra3.jpg" alt="Obra de Arte 3">
+                <figcaption>Es una pintura expresionista con trazos enérgicos y colores fríos que transmiten movimiento y tensión, mostrando figuras humanas enredadas en un entorno abstracto y caótico.
+                    <div class="autor-link">
+                        <a href="#artista3">Por Sofía Ramírez Gómez</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra4.jpg" alt="Obra de Arte 4">
+                <figcaption>Es una obra surrealista que muestra el encuentro íntimo entre una mujer y un lobo, fusionando naturaleza y humanidad con paisajes que se integran en sus figuras, transmitiendo armonía y conexión espiritual.
+                    <div class="autor-link">
+                        <a href="#artista5">Por Laura Fernanda Castro Rodríguez</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra5.jpg" alt="Obra de Arte 5">
+                <figcaption>Esta pintura en acuarela muestra delicadas flores rojas con tallos verdes sobre un fondo blanco con manchas suaves de azul, rosa y verde. El estilo es ligero y fluido, transmitiendo frescura y serenidad.
+                    <div class="autor-link">
+                        <a href="#artista4">Por Juan Sebastián Méndez Lozano</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra6.jpg" alt="Obra de Arte 6">
+                <figcaption>Esta pintura vibrante muestra una escena urbana colorida con edificios iluminados a la izquierda y un árbol con hojas doradas y amarillas a la derecha. El fondo azul sugiere una noche lluviosa con reflejos brillantes en la calle.
+                    <div class="autor-link">
+                        <a href="#artista2">Por Miguel Ángel Ríos Pardo</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra7.jpg" alt="Obra de Arte 7">
+                <figcaption>Esta pintura clásica muestra un jarrón ornamentado con intrincados detalles dorados y plateados, que sostienen un opulento ramo de flores variadas.
+                    <div class="autor-link">
+                        <a href="#artista3">Por Sofía Ramírez Gómez</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra8.jpg" alt="Obra de Arte 8">
+                <figcaption>Esta imagen muestra una pintura vibrante y colorida de un puerto costero con edificios antiguos pintados en tonos cálidos como amarillo, naranja, rosa y rojo. Los botes blancos flotan en el agua oscura y tranquila, reflejando las luces de las construcciones.
+                    <div class="autor-link">
+                        <a href="#artista6">Por Camilo Pérez Villalobos</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra9.jpg" alt="Obra de Arte 9">
+                <figcaption>Esta imagen muestra una pintura clásica de un paisaje campestre con un río tranquilo rodeado de árboles frondosos y verdes. A la izquierda, se observa un molino con un techo rojo y personas realizando actividades cotidianas, como pescar y remar en un bote.
+                    <div class="autor-link">
+                        <a href="#artista1">Por Daniela Torres Martínez</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra10jpg.jpg" alt="Obra de Arte 10">
+                <figcaption>Esta es una ilustración pintada en acuarela de un pajarito azul con blanco posado en una rama. El estilo es suave y delicado, con pinceladas fluidas que transmiten un sentimiento de calma y belleza natural. 
+                    <div class="autor-link">
+                        <a href="#artista5">Por Laura Fernanda Castro Rodríguez</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra11.webp" alt="Obra de Arte 11">
+                <figcaption>Esta es una pintura vibrante de dos flamencos rosados parados en aguas cristalinas bajo un cielo azul brillante. La técnica utilizada sugiere un trabajo al óleo o acrílico con pinceladas visibles que agregan textura a las plumas de los flamencos y al movimiento del agua.
+                    <div class="autor-link">
+                        <a href="#artista4">Por Juan Sebastián Méndez Lozano</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra12.webp" alt="Obra de Arte 12">
+                <figcaption>Esta pintura muestra una escena urbana lluviosa, con un estilo impresionista caracterizado por pinceladas gruesas y colores vibrantes. Las luces cálidas de las farolas y los escaparates contrastan con los tonos fríos del cielo y los edificios, reflejándose en el suelo mojado con efectos brillantes y borrosos. 
+                    <div class="autor-link">
+                        <a href="#artista2">Por Miguel Ángel Ríos Pardo</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra13.avif" alt="Obra de Arte 13">
+                <figcaption>Esta pintura en acuarela muestra un loro colorido con plumaje azul, verde y naranja vibrante. El fondo es suave y abstracto, con manchas de colores pastel que se mezclan de manera armoniosa, resaltando al loro como el foco principal.
+                    <div class="autor-link">
+                        <a href="#artista3">Por Sofía Ramírez Gómez</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra14.webp" alt="Obra de Arte 14">
+                <figcaption>Esta pintura vibrante muestra a tres personas bajo paraguas rojos caminando sobre un suelo mojado que refleja intensamente la luz. El uso de pinceladas gruesas y colores cálidos como naranjas, amarillos y rojos se mezclan con azules y púrpuras, creando un efecto impresionista y dinámico.
+                    <div class="autor-link">
+                        <a href="#artista6">Por Camilo Pérez Villalobos</a>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/obra15.avif" alt="Obra de Arte 15">
+                <figcaption>Esta pintura impresionante muestra un paisaje al atardecer con un cielo en tonos cálidos de amarillo, naranja y azul profundo. Un gran sol naranja se asoma detrás de dos árboles oscuros, cuyas ramas se dibujan delicadamente contra el cielo. 
+                    <div class="autor-link">
+                        <a href="#artista1">Por Daniela Torres Martínez</a>
+                    </div>
+                </figcaption>
+            
+            
+            
+        </div>
+    </section>
+
+    <!-- Sección Artistas -->
+    <section id="artistas">
+        <h2>Artistas</h2><br><br>
+        <div class="artista" id="artista1">
+            <img src="imagenes/artista1.png" alt="Artista 1">
+            <h3>Daniela Torres Martínez</h3>
+            <p>Estudiante de Ingeniería de Software en quinto semestre. Trabaja como desarrolladora web junior y le apasiona la accesibilidad web. Disfruta del hiking, la música electrónica y sueña con crear su propia startup.</p>
+        </div>
+        <div class="artista" id="artista2">
+            <img src="imagenes/artista2.png" alt="Artista 2">
+            <h3>Miguel Ángel Ríos Pardo</h3>
+            <p>Estudiante de Administración de Empresas en cuarto semestre. Hace prácticas en consultoría financiera. Le gusta el fútbol, leer sobre liderazgo y ofrecer charlas motivacionales a jóvenes emprendedores.</p>
+        </div>
+        <div class="artista" id="artista3">
+            <img src="imagenes/artista3.png" alt="Artista 3">
+            <h3>Sofía Ramírez Gómez</h3>
+            <p>Estudiante de Diseño Gráfico en tercer semestre. Vende ilustraciones personalizadas y comparte su arte en redes sociales. Ama la pintura, el cine de animación y participar en concursos artísticos.</p>
+        </div>
+        <div class="artista" id="artista4">
+            <img src="imagenes/artista4.png" alt="Artista 4">
+            <h3>Juan Sebastián Méndez Lozano</h3>
+            <p>Estudiante de Ingeniería Industrial en sexto semestre. Trabaja en logística optimizando procesos. Disfruta del ciclismo urbano, coleccionar maquetas y crear proyectos sostenibles.</p>
+        </div>
+        <div class="artista" id="artista5">
+            <img src="imagenes/artista5.png" alt="Artista 5">
+            <h3>Laura Fernanda Castro Rodríguez</h3>
+            <p>Estudiante de Psicología en segundo semestre. Participa en voluntariados de salud mental. Escribe cuentos, practica yoga y quiere especializarse en psicología educativa.</p>
+        </div>
+        <div class="artista"id="artista6">
+            <img src="imagenes/artista6.png" alt="Artista 6">
+            <h3>Camilo Pérez Villalobos</h3>
+            <p>Estudiante de Ingeniería de Sistemas en quinto semestre. Trabaja como desarrollador freelance. Le interesa la ciberseguridad, ama la ciencia ficción y planea crear una plataforma educativa.</p>
+        </div>
+    </section>
+
+    <!-- Sección Formulario de Registro -->
+    <section id="registro">
+        <h2>Regístro</h2>
+        <form action="#" method="POST"><b></b>
+            <select name="categoria" id="categoria">
+                <option value="">-- Seleccione el tipo de evento --</option>
+                <option value="eventos">Evento</option>
+                <option value="exposiciones">Exposiciones</option>
+                <option value="visitas_guiadas">Visitas guiadas</option>
+            </select>
+            
+            <label for="evento">Nombre del Evento:</label>
+            <input type="text" id="evento" name="evento" >
+
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="celular">Número de Celular:</label>
+            <input type="tel" id="celular" name="celular" required>
+  
+            <label for="celular">Danos tu expectativa del evento:</label>    
+            <textarea name="" id=""></textarea>
+
+            <button type="submit">Registrarse</button>
+        </form>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+        <p>Dirección: Calle de Arte, 123, Bogotá, Colombia</p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Galería Arte Compensar | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
